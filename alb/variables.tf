@@ -14,4 +14,8 @@ variable "alb_type" {
 variable "alb_name" {
 
 }
+variable "tg-alb_name" {
+
+}
+
 

@@ -7,7 +7,7 @@ resource "aws_lb" "alb_pu" {
 }
 
 resource "aws_lb_target_group" "tg-alb" {
-  name     = "tg-alb"
+  name     = var.tg-alb_name
   port     = 80
   protocol = "HTTP"
   vpc_id   = var.vpc_tg_id
