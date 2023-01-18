@@ -29,7 +29,7 @@ terraform {
     bucket = "terraform-up-and-running-state-18-1"
     key = "dev/terraform.tfstate"
     region = "us-east-1"
-    #dynamodb_table = "terraform-up-running-locks"
+    dynamodb_table = "terraform-up-running-locks"
     encrypt = true
   }
 }
